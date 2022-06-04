@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+$light-grayish-blue: hsl(240, 5%, 91%);
+$font-stack: 'Kumbh Sans', sans-serif;
+
+
+@mixin flexProperty($prop1, $prop2, $prop3, $prop4) {
+    display: $prop1;
+    align-items: $prop2;
+    justify-content: $prop3;
+    flex-direction: $prop4;
+}
+
+@mixin textProperty($prop1, $prop2, $prop3, $prop4) {
+    color: $prop1;
+    font-size: $prop2;
+    font-weight: $prop3;
+    text-align: $prop4;
+}
